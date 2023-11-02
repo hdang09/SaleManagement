@@ -41,7 +41,7 @@ namespace SaleManagementWinApp
                 txtCompanyName.Text = obj.CompanyName.ToString();
                 txtCity.Text = obj.City.ToString();
                 txtCountry.Text = obj.Country;
-                
+
             }
             btnAddMember.Enabled = false;
             btnUpdate.Enabled = true;
@@ -72,7 +72,7 @@ namespace SaleManagementWinApp
             var Id = int.Parse(txtId.Text);
             var obj = memberDAO.GetAll().Where(p => p.MemberId == Id).FirstOrDefault();
             memberDAO = new MemberDAO();
-            if(obj != null)
+            if (obj != null)
             {
                 var dialog = MessageBox.Show("Do you want to delete it?", "Warning", MessageBoxButtons.OKCancel);
                 if (dialog == DialogResult.OK)
@@ -85,7 +85,6 @@ namespace SaleManagementWinApp
                 }
             }
         }
-
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             memberDAO = new MemberDAO();
