@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPT\\MonHoc\\PRN211\\Assigment3\\SaleManagement\\Repositories\\Repositories.csproj": {}
+    "C:\\Users\\ACER\\OneDrive\\Máy tính\\ass_main\\SaleManagement\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "D:\\FPT\\MonHoc\\PRN211\\Assigment3\\SaleManagement\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\ACER\\OneDrive\\Máy tính\\ass_main\\SaleManagement\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT\\MonHoc\\PRN211\\Assigment3\\SaleManagement\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\OneDrive\\Máy tính\\ass_main\\SaleManagement\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "D:\\FPT\\MonHoc\\PRN211\\Assigment3\\SaleManagement\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\kietv\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT\\MonHoc\\PRN211\\Assigment3\\SaleManagement\\Repositories\\obj\\",
+        "projectPath": "C:\\Users\\ACER\\OneDrive\\Máy tính\\ass_main\\SaleManagement\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER\\OneDrive\\Máy tính\\ass_main\\SaleManagement\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kietv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,8 +61,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
