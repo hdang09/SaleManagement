@@ -1,0 +1,12 @@
+D:\prn211\Ass02Solution_PRN211_3W_DangVanThien\BusinessObjects\bin\Debug\net5.0\BusinessObjects.deps.json
+D:\prn211\Ass02Solution_PRN211_3W_DangVanThien\BusinessObjects\bin\Debug\net5.0\BusinessObjects.dll
+D:\prn211\Ass02Solution_PRN211_3W_DangVanThien\BusinessObjects\bin\Debug\net5.0\BusinessObjects.pdb
+D:\prn211\Ass02Solution_PRN211_3W_DangVanThien\BusinessObjects\obj\Debug\net5.0\BusinessObjects.csproj.AssemblyReference.cache
+D:\prn211\Ass02Solution_PRN211_3W_DangVanThien\BusinessObjects\obj\Debug\net5.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\prn211\Ass02Solution_PRN211_3W_DangVanThien\BusinessObjects\obj\Debug\net5.0\BusinessObjects.AssemblyInfoInputs.cache
+D:\prn211\Ass02Solution_PRN211_3W_DangVanThien\BusinessObjects\obj\Debug\net5.0\BusinessObjects.AssemblyInfo.cs
+D:\prn211\Ass02Solution_PRN211_3W_DangVanThien\BusinessObjects\obj\Debug\net5.0\BusinessObjects.csproj.CoreCompileInputs.cache
+D:\prn211\Ass02Solution_PRN211_3W_DangVanThien\BusinessObjects\obj\Debug\net5.0\BusinessObjects.dll
+D:\prn211\Ass02Solution_PRN211_3W_DangVanThien\BusinessObjects\obj\Debug\net5.0\refint\BusinessObjects.dll
+D:\prn211\Ass02Solution_PRN211_3W_DangVanThien\BusinessObjects\obj\Debug\net5.0\BusinessObjects.pdb
+D:\prn211\Ass02Solution_PRN211_3W_DangVanThien\BusinessObjects\obj\Debug\net5.0\ref\BusinessObjects.dll
