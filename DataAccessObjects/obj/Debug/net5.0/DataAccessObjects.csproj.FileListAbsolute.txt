@@ -14,3 +14,19 @@ D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\DataAccess
 D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\DataAccessObjects\obj\Debug\net5.0\refint\DataAccessObjects.dll
 D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.pdb
 D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\DataAccessObjects\obj\Debug\net5.0\ref\DataAccessObjects.dll
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\bin\Debug\net5.0\appsettings.json
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\bin\Debug\net5.0\DataAccessObjects.deps.json
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\bin\Debug\net5.0\DataAccessObjects.dll
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\bin\Debug\net5.0\DataAccessObjects.pdb
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\bin\Debug\net5.0\Repositories.dll
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\bin\Debug\net5.0\Repositories.pdb
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.csproj.AssemblyReference.cache
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.AssemblyInfoInputs.cache
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.AssemblyInfo.cs
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.csproj.CoreCompileInputs.cache
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.csproj.CopyComplete
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.dll
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\obj\Debug\net5.0\refint\DataAccessObjects.dll
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.pdb
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\DataAccessObjects\obj\Debug\net5.0\ref\DataAccessObjects.dll

@@ -14,3 +14,19 @@ D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositori
 D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\obj\Debug\net5.0\Repositories.pdb
 D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\obj\Debug\net5.0\Repositories.genruntimeconfig.cache
 D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\obj\Debug\net5.0\ref\Repositories.dll
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\bin\Debug\net5.0\appsettings.json
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.deps.json
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.json
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.dev.json
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.dll
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.pdb
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.csproj.AssemblyReference.cache
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfoInputs.cache
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfo.cs
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.csproj.CoreCompileInputs.cache
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.dll
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\refint\Repositories.dll
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.pdb
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.genruntimeconfig.cache
+E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\ref\Repositories.dll

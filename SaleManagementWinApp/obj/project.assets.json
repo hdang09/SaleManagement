@@ -6117,19 +6117,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT UNIVERSITY\\2nd Year (Sophomore) - 2023\\Fall 2023\\PRN211\\SaleManagement\\SaleManagementWinApp\\SaleManagementWinApp.csproj",
+      "projectUniqueName": "E:\\CN5\\PRN211\\PROJECT\\ASS\\SaleManagement\\SaleManagementWinApp\\SaleManagementWinApp.csproj",
       "projectName": "SaleManagementWinApp",
-      "projectPath": "D:\\FPT UNIVERSITY\\2nd Year (Sophomore) - 2023\\Fall 2023\\PRN211\\SaleManagement\\SaleManagementWinApp\\SaleManagementWinApp.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT UNIVERSITY\\2nd Year (Sophomore) - 2023\\Fall 2023\\PRN211\\SaleManagement\\SaleManagementWinApp\\obj\\",
+      "projectPath": "E:\\CN5\\PRN211\\PROJECT\\ASS\\SaleManagement\\SaleManagementWinApp\\SaleManagementWinApp.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "E:\\CN5\\PRN211\\PROJECT\\ASS\\SaleManagement\\SaleManagementWinApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6143,11 +6143,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "D:\\FPT UNIVERSITY\\2nd Year (Sophomore) - 2023\\Fall 2023\\PRN211\\SaleManagement\\DataAccessObjects\\DataAccessObjects.csproj": {
-              "projectPath": "D:\\FPT UNIVERSITY\\2nd Year (Sophomore) - 2023\\Fall 2023\\PRN211\\SaleManagement\\DataAccessObjects\\DataAccessObjects.csproj"
+            "E:\\CN5\\PRN211\\PROJECT\\ASS\\SaleManagement\\DataAccessObjects\\DataAccessObjects.csproj": {
+              "projectPath": "E:\\CN5\\PRN211\\PROJECT\\ASS\\SaleManagement\\DataAccessObjects\\DataAccessObjects.csproj"
             },
-            "D:\\FPT UNIVERSITY\\2nd Year (Sophomore) - 2023\\Fall 2023\\PRN211\\SaleManagement\\Repositories\\Repositories.csproj": {
-              "projectPath": "D:\\FPT UNIVERSITY\\2nd Year (Sophomore) - 2023\\Fall 2023\\PRN211\\SaleManagement\\Repositories\\Repositories.csproj"
+            "E:\\CN5\\PRN211\\PROJECT\\ASS\\SaleManagement\\Repositories\\Repositories.csproj": {
+              "projectPath": "E:\\CN5\\PRN211\\PROJECT\\ASS\\SaleManagement\\Repositories\\Repositories.csproj"
             }
           }
         }
@@ -6172,24 +6172,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.17, 5.0.17]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -6198,7 +6180,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

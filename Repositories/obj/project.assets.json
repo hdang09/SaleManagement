@@ -6147,19 +6147,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT UNIVERSITY\\2nd Year (Sophomore) - 2023\\Fall 2023\\PRN211\\SaleManagement\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "E:\\CN5\\PRN211\\PROJECT\\ASS\\SaleManagement\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "D:\\FPT UNIVERSITY\\2nd Year (Sophomore) - 2023\\Fall 2023\\PRN211\\SaleManagement\\Repositories\\Repositories.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT UNIVERSITY\\2nd Year (Sophomore) - 2023\\Fall 2023\\PRN211\\SaleManagement\\Repositories\\obj\\",
+      "projectPath": "E:\\CN5\\PRN211\\PROJECT\\ASS\\SaleManagement\\Repositories\\Repositories.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "E:\\CN5\\PRN211\\PROJECT\\ASS\\SaleManagement\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6211,26 +6211,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
