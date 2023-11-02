@@ -12,20 +12,23 @@ namespace SaleManagementWinApp
 
         private void fileToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            frmProducts frmProducts = new frmProducts();
+            frmProducts.ShowDialog();
         }
 
         private void signOutToolStripMenuItem_Click(object sender, EventArgs e) => this.Close();
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            frmCreateOrder frmOrders = new frmCreateOrder();
+            frmOrders.ShowDialog();
 
         }
 
         private void accountToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            frmMember frmMember = new frmMember();
+            frmMember.ShowDialog();
         }
 
         private void btnExit_Click(object sender, EventArgs e) { Application.Exit(); }
