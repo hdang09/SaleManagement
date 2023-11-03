@@ -13,7 +13,7 @@ namespace SaleManagementWinApp
         public frmCreateOrder()
         {
             InitializeComponent();
-            var list = productDAO.GetAll().Select(p => new { p.ProductId, p.ProductName, p.UnitPrice, p.CategoryId, p.Weight, p.UnitsInStock }).ToList();
+            var list = productDAO.GetAll().Select(p => new {  p.ProductName, p.UnitPrice, p.UnitsInStock }).ToList();
             dgvListProduct.DataSource = list;
         }
 
@@ -40,8 +40,13 @@ namespace SaleManagementWinApp
         private void btnSearchProduct_Click(object sender, EventArgs e)
         {
 
-                frmOrders frmOrder = new frmOrders();
-                frmOrder.ShowDialog();
+            frmOrders frmOrder = new frmOrders();
+            frmOrder.ShowDialog();
+        }
+
+        private void dgvListProduct_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
