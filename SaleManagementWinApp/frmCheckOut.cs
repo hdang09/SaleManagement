@@ -16,7 +16,7 @@ namespace SaleManagementWinApp
         public frmCheckOut()
         {
             InitializeComponent();
-            var list = orderDetailDAO.GetAll().Where(p=>p.Discount!=1)
+            var list = orderDetailDAO.GetAll().Where(p => p.Discount != 1)
                 .Select(p => new { p.OrderId, p.ProductId, p.UnitPrice, p.Quantity, p.Discount }).ToList();
             dgvListCart.DataSource = list;
 
@@ -24,7 +24,8 @@ namespace SaleManagementWinApp
 
         private void frmCheckOut_Load(object sender, EventArgs e)
         {
-            var list = orderDetailDAO.GetAll().Select(p => new { p.OrderId, p.ProductId, p.UnitPrice, p.Quantity, p.Discount }).ToList();
+            var list = orderDetailDAO.GetAll().Where(p => p.Discount != 1)
+                .Select(p => new { p.OrderId, p.ProductId, p.UnitPrice, p.Quantity, p.Discount }).ToList();
             dgvListCart.DataSource = list;
 
         }
@@ -69,9 +70,9 @@ namespace SaleManagementWinApp
             };
 
             _orderDetailRepository.Delete(order);
-
-            MessageBox.Show("Remove a product done", "Notification", MessageBoxButtons.OK);
             frmCheckOut_Load(null, null);
+            MessageBox.Show("Remove a product done", "Notification", MessageBoxButtons.OK);
+
 
         }
 
@@ -84,28 +85,32 @@ namespace SaleManagementWinApp
             }
 
             int selectedRowIndex = dgvListCart.SelectedCells[0].RowIndex;
-            DataGridViewRow row = dgvListCart.Rows[selectedRowIndex];
+            // DataGridViewRow row = dgvListCart.Rows[selectedRowIndex];
             List<string> cellValues = new List<string>();
-            foreach (DataGridViewCell cell in row.Cells)
+            foreach (DataGridViewRow row in dgvListCart.Rows)
             {
-                string cellValue = cell.Value?.ToString() ?? string.Empty;
-                cellValues.Add(cellValue);
-            }
+                foreach (DataGridViewCell cell in row.Cells)
+                {
+                    string cellValue = cell.Value?.ToString() ?? string.Empty;
+                    cellValues.Add(cellValue);
+                }
 
-            var order = new OrderDetail
-            {
-                OrderId = int.Parse(cellValues[0]),
-                ProductId = int.Parse(cellValues[1]),
-                UnitPrice = decimal.Parse(cellValues[2]),
-                Quantity = int.Parse(cellValues[3]),
-                Discount = 1
+                var order = new OrderDetail
+                {
+                    OrderId = int.Parse(cellValues[0]),
+                    ProductId = int.Parse(cellValues[1]),
+                    UnitPrice = decimal.Parse(cellValues[2]),
+                    Quantity = int.Parse(cellValues[3]),
+                    Discount = 1
+                };
+                _orderDetailRepository.Update(order);
+                cellValues.Clear();
             };
 
-            _orderDetailRepository.Delete(order);
 
             MessageBox.Show("Pay a product done", "Notification", MessageBoxButtons.OK);
-            frmCheckOut_Load(null, null);
+            dgvListCart.Update();
 
         }
     }
-    }
+}

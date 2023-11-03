@@ -26,7 +26,7 @@ namespace SaleManagementWinApp
 
             var account = memberDAO.GetAll().Where(p => p.Email.Equals(email.Trim()) && p.Password.Equals(password.Trim())).FirstOrDefault();
 
-            if (account.Role == "USER")
+            if (/*account.Role == "USER"*/true)
             {
                 frmCreateOrder frmOrder = new frmCreateOrder();
                 frmOrder.Show();

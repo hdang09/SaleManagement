@@ -18,7 +18,7 @@ namespace SaleManagementWinApp
         ProductDAO productDAO = new ProductDAO();
         public frmCreateOrder()
         {
-            InitializeComponent();
+            InitializeComponent();// lấy data dưới database lên
             var list = productDAO.GetAll().Select(p => new { p.ProductId, p.ProductName, p.UnitPrice, p.UnitsInStock }).ToList();
             dgvListProduct.DataSource = list;
             txtProductID.Enabled = false;
