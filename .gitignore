@@ -1,1 +1,85 @@
-.vs
+# Visual Studio-specific files and directories
+.vscode/
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+
+# User-specific Visual Studio files
+*.suo
+*.user
+
+# Output directories
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio project-specific files
+[Dd]ebug*/
+[Rr]elease*/
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+.lnk
+
+# JetBrains Rider
+.idea/
+
+# User-specific Visual Studio Code settings
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+SaleManagementWinApp/bin
+SaleManagementWinApp/obj
+
+DataAccessObjects/bin
+DataAccessObjects/obj
+
+Repositories/bin
+Repositories/obj

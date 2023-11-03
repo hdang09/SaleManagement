@@ -1,64 +1,16 @@
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\bin\Debug\net5.0\appsettings.json
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\bin\Debug\net5.0\Repositories.deps.json
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.json
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.dev.json
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\bin\Debug\net5.0\Repositories.dll
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\bin\Debug\net5.0\Repositories.pdb
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\obj\Debug\net5.0\Repositories.csproj.AssemblyReference.cache
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\obj\Debug\net5.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfoInputs.cache
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfo.cs
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\obj\Debug\net5.0\Repositories.csproj.CoreCompileInputs.cache
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\obj\Debug\net5.0\Repositories.dll
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\obj\Debug\net5.0\refint\Repositories.dll
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\obj\Debug\net5.0\Repositories.pdb
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\obj\Debug\net5.0\Repositories.genruntimeconfig.cache
-D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\PRN211\Repositories\obj\Debug\net5.0\ref\Repositories.dll
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\bin\Debug\net5.0\appsettings.json
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.deps.json
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.json
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.dev.json
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.dll
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.pdb
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.csproj.AssemblyReference.cache
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfoInputs.cache
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfo.cs
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.csproj.CoreCompileInputs.cache
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.dll
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\refint\Repositories.dll
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.pdb
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.genruntimeconfig.cache
-E:\CN5\PRN211\PROJECT\ASS\SaleManagement\Repositories\obj\Debug\net5.0\ref\Repositories.dll
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\bin\Debug\net5.0\appsettings.json
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.deps.json
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.json
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.dev.json
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.dll
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.pdb
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.csproj.AssemblyReference.cache
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfoInputs.cache
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfo.cs
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.csproj.CoreCompileInputs.cache
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.dll
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\refint\Repositories.dll
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.pdb
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.genruntimeconfig.cache
-E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\ref\Repositories.dll
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\bin\Debug\net5.0\appsettings.json
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.deps.json
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.json
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.dev.json
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.dll
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.pdb
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.csproj.AssemblyReference.cache
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfoInputs.cache
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfo.cs
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.csproj.CoreCompileInputs.cache
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.dll
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\refint\Repositories.dll
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.pdb
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.genruntimeconfig.cache
-C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\ref\Repositories.dll
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\bin\Debug\net5.0\appsettings.json
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.deps.json
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.json
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.dev.json
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.dll
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.pdb
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.csproj.AssemblyReference.cache
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfoInputs.cache
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfo.cs
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.csproj.CoreCompileInputs.cache
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.dll
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\obj\Debug\net5.0\refint\Repositories.dll
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.pdb
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.genruntimeconfig.cache
+D:\FPT UNIVERSITY\2nd Year (Sophomore) - 2023\Fall 2023\PRN211\SaleManagement\Repositories\obj\Debug\net5.0\ref\Repositories.dll
