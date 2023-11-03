@@ -20,6 +20,7 @@ namespace SaleManagementWinApp
         private void btnLogin_Click(object sender, EventArgs e)
         {
 
+
             var email = txtEmail.Text;
             var password = txtPassword.Text;
 

@@ -38,34 +38,40 @@
             // dgvListCart
             // 
             dgvListCart.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvListCart.Location = new System.Drawing.Point(12, 71);
+            dgvListCart.Location = new System.Drawing.Point(14, 95);
+            dgvListCart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             dgvListCart.Name = "dgvListCart";
+            dgvListCart.RowHeadersWidth = 51;
             dgvListCart.RowTemplate.Height = 25;
-            dgvListCart.Size = new System.Drawing.Size(776, 267);
+            dgvListCart.Size = new System.Drawing.Size(887, 356);
             dgvListCart.TabIndex = 0;
             dgvListCart.CellDoubleClick += dgvListCart_CellDoubleClick;
             // 
             // btnCheckout
             // 
-            btnCheckout.Location = new System.Drawing.Point(689, 358);
+            btnCheckout.Location = new System.Drawing.Point(787, 477);
+            btnCheckout.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnCheckout.Name = "btnCheckout";
-            btnCheckout.Size = new System.Drawing.Size(99, 38);
+            btnCheckout.Size = new System.Drawing.Size(113, 51);
             btnCheckout.TabIndex = 1;
             btnCheckout.Text = "CheckOut";
             btnCheckout.UseVisualStyleBackColor = true;
+            btnCheckout.Click += btnCheckout_Click;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new System.Drawing.Point(579, 31);
+            dateTimePicker1.Location = new System.Drawing.Point(662, 41);
+            dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new System.Drawing.Size(74, 23);
+            dateTimePicker1.Size = new System.Drawing.Size(84, 27);
             dateTimePicker1.TabIndex = 2;
             // 
             // btnRemoveCart
             // 
-            btnRemoveCart.Location = new System.Drawing.Point(554, 358);
+            btnRemoveCart.Location = new System.Drawing.Point(633, 477);
+            btnRemoveCart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnRemoveCart.Name = "btnRemoveCart";
-            btnRemoveCart.Size = new System.Drawing.Size(99, 38);
+            btnRemoveCart.Size = new System.Drawing.Size(113, 51);
             btnRemoveCart.TabIndex = 3;
             btnRemoveCart.Text = "Remove";
             btnRemoveCart.UseVisualStyleBackColor = true;
@@ -73,13 +79,14 @@
             // 
             // frmCheckOut
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(800, 450);
+            ClientSize = new System.Drawing.Size(914, 600);
             Controls.Add(btnRemoveCart);
             Controls.Add(dateTimePicker1);
             Controls.Add(btnCheckout);
             Controls.Add(dgvListCart);
+            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             Name = "frmCheckOut";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "frmCheckOut";
