@@ -40,7 +40,7 @@ namespace Repositories.Models
             {
                 entity.ToTable("Category");
 
-                entity.Property(e => e.CategoryId).ValueGeneratedNever();
+                entity.Property(e => e.CategoryId).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.CategoryName)
                     .IsRequired()
@@ -52,14 +52,14 @@ namespace Repositories.Models
             {
                 entity.ToTable("Member");
 
-                entity.Property(e => e.MemberId).ValueGeneratedNever();
+                entity.Property(e => e.MemberId).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.City)
                     .IsRequired()
                     .HasMaxLength(15)
                     .IsUnicode(false);
 
-                entity.Property(e => e.CompanyName)
+                entity.Property(e => e.Role)
                     .IsRequired()
                     .HasMaxLength(40)
                     .IsUnicode(false);
@@ -84,7 +84,7 @@ namespace Repositories.Models
             {
                 entity.ToTable("Order");
 
-                entity.Property(e => e.OrderId).ValueGeneratedNever();
+                entity.Property(e => e.OrderId).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Freight).HasColumnType("money");
 
@@ -125,7 +125,7 @@ namespace Repositories.Models
             {
                 entity.ToTable("Product");
 
-                entity.Property(e => e.ProductId).ValueGeneratedNever();
+                entity.Property(e => e.ProductId).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.ProductName)
                     .IsRequired()

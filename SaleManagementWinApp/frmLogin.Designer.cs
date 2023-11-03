@@ -34,31 +34,36 @@
             btnCancel = new System.Windows.Forms.Button();
             txtEmail = new System.Windows.Forms.TextBox();
             txtPassword = new System.Windows.Forms.TextBox();
+            label3 = new System.Windows.Forms.Label();
+            label4 = new System.Windows.Forms.Label();
+            label5 = new System.Windows.Forms.Label();
+            linkLabel1 = new System.Windows.Forms.LinkLabel();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new System.Drawing.Point(35, 46);
+            label1.Location = new System.Drawing.Point(122, 182);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(36, 15);
+            label1.Size = new System.Drawing.Size(46, 20);
             label1.TabIndex = 0;
             label1.Text = "Email";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(35, 109);
+            label2.Location = new System.Drawing.Point(122, 241);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(57, 15);
+            label2.Size = new System.Drawing.Size(70, 20);
             label2.TabIndex = 1;
             label2.Text = "Password";
             // 
             // btnLogin
             // 
-            btnLogin.Location = new System.Drawing.Point(181, 158);
+            btnLogin.Location = new System.Drawing.Point(208, 322);
+            btnLogin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new System.Drawing.Size(79, 21);
+            btnLogin.Size = new System.Drawing.Size(90, 28);
             btnLogin.TabIndex = 2;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
@@ -66,9 +71,10 @@
             // 
             // btnCancel
             // 
-            btnCancel.Location = new System.Drawing.Point(286, 158);
+            btnCancel.Location = new System.Drawing.Point(328, 322);
+            btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnCancel.Name = "btnCancel";
-            btnCancel.Size = new System.Drawing.Size(79, 21);
+            btnCancel.Size = new System.Drawing.Size(90, 28);
             btnCancel.TabIndex = 3;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = true;
@@ -76,31 +82,76 @@
             // 
             // txtEmail
             // 
-            txtEmail.Location = new System.Drawing.Point(110, 43);
+            txtEmail.Location = new System.Drawing.Point(208, 178);
+            txtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new System.Drawing.Size(255, 23);
+            txtEmail.Size = new System.Drawing.Size(291, 27);
             txtEmail.TabIndex = 4;
-            txtEmail.Text = "admin@fstore.com";
             // 
             // txtPassword
             // 
-            txtPassword.Location = new System.Drawing.Point(110, 106);
+            txtPassword.Location = new System.Drawing.Point(208, 237);
+            txtPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new System.Drawing.Size(255, 23);
+            txtPassword.Size = new System.Drawing.Size(291, 27);
             txtPassword.TabIndex = 5;
-            txtPassword.Text = "admin@@";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label3.Location = new System.Drawing.Point(264, 43);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(83, 28);
+            label3.TabIndex = 6;
+            label3.Text = "FUStore";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label4.Location = new System.Drawing.Point(194, 100);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(224, 32);
+            label4.TabIndex = 7;
+            label4.Text = "Log in to continue";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new System.Drawing.Point(175, 409);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(167, 20);
+            label5.TabIndex = 8;
+            label5.Text = "Don't have an account? ";
+            // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Location = new System.Drawing.Point(342, 409);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new System.Drawing.Size(63, 20);
+            linkLabel1.TabIndex = 9;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Register";
+            linkLabel1.MouseClick += goToRegister;
             // 
             // frmLogin
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(400, 198);
+            ClientSize = new System.Drawing.Size(606, 473);
+            Controls.Add(linkLabel1);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
             Controls.Add(txtPassword);
             Controls.Add(txtEmail);
             Controls.Add(btnCancel);
             Controls.Add(btnLogin);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             Name = "frmLogin";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "Login Form";
@@ -116,5 +167,9 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

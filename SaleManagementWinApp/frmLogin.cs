@@ -23,27 +23,19 @@ namespace SaleManagementWinApp
             var email = txtEmail.Text;
             var password = txtPassword.Text;
 
-            string fileName = "appsettings.json";
-            string json = File.ReadAllText(fileName);  //read text from JSON
-
-            // deserialize from JSOn file --> Member obj
-            var adminAccount = JsonSerializer.Deserialize<Member>(json, null);
-
-            string emailAd = adminAccount.Email;
-            string passwordAd = adminAccount.Password;
-
             var account = memberDAO.GetAll().Where(p => p.Email.Equals(email.Trim()) && p.Password.Equals(password.Trim())).FirstOrDefault();
-            if (account != null)
+
+            if (account.Role == "USER")
             {
                 frmCreateOrder frmOrder = new frmCreateOrder();
-                frmOrder.ShowDialog();
+                frmOrder.Show();
 
                 this.Hide();
             }
-            else if (emailAd.Equals(email.Trim()) && passwordAd.Equals(password.Trim()))
+            else if (account.Role == "ADMIN")
             {
                 frmMain mainForm = new frmMain();
-                mainForm.ShowDialog();
+                mainForm.Show();
 
                 this.Hide();
             }
@@ -54,5 +46,13 @@ namespace SaleManagementWinApp
         }
 
         private void btnCancel_Click(object sender, EventArgs e) => Application.Exit();
+
+        private void goToRegister(object sender, MouseEventArgs e)
+        {
+            this.Hide();
+
+            frmRegister frmRegister = new frmRegister();
+            frmRegister.Show();
+        }
     }
 }

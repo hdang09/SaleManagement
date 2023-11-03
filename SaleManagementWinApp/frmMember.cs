@@ -23,28 +23,8 @@ namespace SaleManagementWinApp
         private void btnSearchMember_Click(object sender, EventArgs e)
         {
             var list = memberDAO.GetAll()
-                    .Select(p => new { p.MemberId, p.Email, p.CompanyName, p.City, p.Country }).ToList();
+                    .Select(p => new { p.MemberId, p.Email, p.Role, p.City, p.Country }).ToList();
             dgvMemberList.DataSource = list;
-        }
-
-        private void dgvMemberList_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            btnAddMember.Enabled = true;
-            btnUpdate.Enabled = false;
-
-            var Id = dgvMemberList.Rows[e.RowIndex].Cells[0].Value;
-            var obj = memberDAO.GetAll().Where(p => p.MemberId.Equals(Id)).FirstOrDefault();
-            if (obj != null)
-            {
-                txtId.Text = obj.MemberId.ToString();
-                txtEmail.Text = obj.Email;
-                txtCompanyName.Text = obj.CompanyName.ToString();
-                txtCity.Text = obj.City.ToString();
-                txtCountry.Text = obj.Country;
-
-            }
-            btnAddMember.Enabled = false;
-            btnUpdate.Enabled = true;
         }
 
         private void btnAddMember_Click(object sender, EventArgs e)
@@ -59,7 +39,7 @@ namespace SaleManagementWinApp
             }
             member.MemberId = int.Parse(txtId.Text);
             member.Email = txtEmail.Text;
-            member.CompanyName = txtCompanyName.Text;
+            member.Role = txtRole.Text;
             member.City = txtCity.Text;
             member.Country = txtCountry.Text;
             member.Password = "1";
@@ -91,12 +71,12 @@ namespace SaleManagementWinApp
             var member = new Member();
             member.MemberId = int.Parse(txtId.Text);
             member.Email = txtEmail.Text;
-            member.CompanyName = txtCompanyName.Text;
+            member.Role = txtRole.Text;
             member.City = txtCity.Text;
             member.Country = txtCountry.Text;
             memberDAO.Update(member);
 
-            var list = memberDAO.GetAll().Select(p => new { p.MemberId, p.Email, p.CompanyName, p.City }).ToList();
+            var list = memberDAO.GetAll().Select(p => new { p.MemberId, p.Email, p.Role, p.City }).ToList();
             dgvMemberList.DataSource = list;
         }
 
