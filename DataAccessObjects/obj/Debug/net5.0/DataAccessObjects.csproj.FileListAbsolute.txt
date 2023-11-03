@@ -46,3 +46,19 @@ E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\DataAccessObjects\obj\Debug\net
 E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\DataAccessObjects\obj\Debug\net5.0\refint\DataAccessObjects.dll
 E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.pdb
 E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\DataAccessObjects\obj\Debug\net5.0\ref\DataAccessObjects.dll
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\bin\Debug\net5.0\appsettings.json
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\bin\Debug\net5.0\DataAccessObjects.deps.json
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\bin\Debug\net5.0\DataAccessObjects.dll
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\bin\Debug\net5.0\DataAccessObjects.pdb
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\bin\Debug\net5.0\Repositories.dll
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\bin\Debug\net5.0\Repositories.pdb
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.csproj.AssemblyReference.cache
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.AssemblyInfoInputs.cache
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.AssemblyInfo.cs
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.csproj.CopyComplete
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.dll
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\obj\Debug\net5.0\refint\DataAccessObjects.dll
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\obj\Debug\net5.0\DataAccessObjects.pdb
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\DataAccessObjects\obj\Debug\net5.0\ref\DataAccessObjects.dll

@@ -46,3 +46,19 @@ E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\r
 E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.pdb
 E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.genruntimeconfig.cache
 E:\CN5\PRN211\Asaimentttttttttttt\SaleManagement\Repositories\obj\Debug\net5.0\ref\Repositories.dll
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\bin\Debug\net5.0\appsettings.json
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.deps.json
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.json
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.runtimeconfig.dev.json
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.dll
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\bin\Debug\net5.0\Repositories.pdb
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.csproj.AssemblyReference.cache
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfoInputs.cache
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.AssemblyInfo.cs
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.dll
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\refint\Repositories.dll
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.pdb
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\Repositories.genruntimeconfig.cache
+C:\Users\ACER\OneDrive\Máy tính\ass_main\SaleManagement\Repositories\obj\Debug\net5.0\ref\Repositories.dll

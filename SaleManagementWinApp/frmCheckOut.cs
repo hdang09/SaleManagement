@@ -17,7 +17,8 @@ namespace SaleManagementWinApp
 
         private void frmCheckOut_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Successful", "You Was Pay!!!");
+            
         }
 
         private void dgvListCart_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -25,15 +26,17 @@ namespace SaleManagementWinApp
             if (e.RowIndex >= 0)
             {
                 var rowSelected = this.dgvListCart.Rows[e.RowIndex];
+               // rowSelected.Cells["City"].Value;
+                //rowSelected.Cells[3].Value;
 
             }
-            btnCheckout.Enabled = false;
-            btnRemoveCart.Enabled = true;
+            btnCheckout.Enabled = false;// bam vo la o check out bi mo di ko cho sai nua
+            btnRemoveCart.Enabled = true;//duoc cho phep nhan khi remove cart
         }
 
         private void btnRemoveCart_Click(object sender, EventArgs e)
         {
-
+            // code cho xong
 
         }
     }
