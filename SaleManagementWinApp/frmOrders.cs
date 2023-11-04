@@ -19,7 +19,7 @@ namespace SaleManagementWinApp
             var list = orderDAO.GetAll().Where(p => p.OrderDate <= dtpEndDate.Value.Date && p.OrderDate >= dtpStartDate.Value.Date).ToList();
             if (list != null)
             {
-                dgvListOrder.DataSource = list; 
+                dgvListOrder.DataSource = list;
             }
             else
             {

@@ -75,11 +75,5 @@ $RECYCLE.BIN/
 .vscode/launch.json
 .vscode/extensions.json
 
-SaleManagementWinApp/bin
-SaleManagementWinApp/obj
-
-DataAccessObjects/bin
-DataAccessObjects/obj
-
-Repositories/bin
-Repositories/obj
+**/bin
+**/obj

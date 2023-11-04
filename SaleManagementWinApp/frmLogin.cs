@@ -25,8 +25,11 @@ namespace SaleManagementWinApp
             var password = txtPassword.Text;
 
             var account = memberDAO.GetAll().Where(p => p.Email.Equals(email.Trim()) && p.Password.Equals(password.Trim())).FirstOrDefault();
-
-            if (/*account.Role == "USER"*/true)
+            if (account == null)
+            {
+                MessageBox.Show("Invalid email or password", "Warning", MessageBoxButtons.OK);
+            }
+            else if (account.Role == "USER")
             {
                 frmCreateOrder frmOrder = new frmCreateOrder();
                 frmOrder.Show();
@@ -39,10 +42,6 @@ namespace SaleManagementWinApp
                 mainForm.Show();
 
                 this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Invalid email or password", "Warning", MessageBoxButtons.OK);
             }
         }
 

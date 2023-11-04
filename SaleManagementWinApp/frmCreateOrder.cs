@@ -13,7 +13,6 @@ namespace SaleManagementWinApp
 {
     public partial class frmCreateOrder : Form
     {
-        OrderDAO orderDAO = new OrderDAO();
         OrderDetailRepository OrderDetailRepository = new OrderDetailRepository();
         ProductDAO productDAO = new ProductDAO();
         public frmCreateOrder()
@@ -95,6 +94,11 @@ namespace SaleManagementWinApp
 
         }
 
-
+        private void logout(object sender, EventArgs e)
+        {
+            frmLogin frmLogin = new frmLogin();
+            this.Hide();
+            frmLogin.Show();
+        }
     }
 }

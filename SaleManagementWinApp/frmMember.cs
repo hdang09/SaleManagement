@@ -1,4 +1,5 @@
 ﻿using DataAccessObjects;
+using Microsoft.VisualBasic.Devices;
 using Repositories.Models;
 using System;
 using System.Linq;
@@ -13,6 +14,9 @@ namespace SaleManagementWinApp
         public frmMember()
         {
             InitializeComponent();
+            var list = memberDAO.GetAll()
+                    .Select(p => new { p.MemberId, p.Email, p.Role, p.City, p.Country }).ToList();
+            dgvMemberList.DataSource = list;
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -22,7 +26,8 @@ namespace SaleManagementWinApp
 
         private void btnSearchMember_Click(object sender, EventArgs e)
         {
-            var list = memberDAO.GetAll()
+            string keyword = tbSearch.Text.Trim();
+            var list = memberDAO.GetAll().Where(p => p.Email.Contains(keyword))
                     .Select(p => new { p.MemberId, p.Email, p.Role, p.City, p.Country }).ToList();
             dgvMemberList.DataSource = list;
         }
@@ -64,6 +69,9 @@ namespace SaleManagementWinApp
                     return;
                 }
             }
+
+            var list = memberDAO.GetAll().Select(p => new { p.MemberId, p.Email, p.Role, p.City }).ToList();
+            dgvMemberList.DataSource = list;
         }
         private void btnUpdate_Click(object sender, EventArgs e)
         {
@@ -80,5 +88,22 @@ namespace SaleManagementWinApp
             dgvMemberList.DataSource = list;
         }
 
+        private void clickCellShowInfo(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                txtId.Enabled = false;
+                var rowSelected = this.dgvMemberList.Rows[e.RowIndex];
+                txtId.Text = rowSelected.Cells["MembeId"].Value.ToString();
+                txtEmail.Text = rowSelected.Cells["Email"].Value.ToString();
+                txtRole.Text = rowSelected.Cells["Role"].Value.ToString();
+                txtCity.Text = rowSelected.Cells["City"].Value.ToString();
+                txtCountry.Text = rowSelected.Cells["Country"].Value.ToString();
+            }
+            //var obj = productsDAO.GetAll().Where(p => p.ProductId.Equals(productId)).FirstOrDefault();
+
+            btnDeleteMember.Enabled = true;
+            btnUpdate.Enabled = true;
+        }
     }
 }

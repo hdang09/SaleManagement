@@ -43,6 +43,7 @@
             btnBuy = new System.Windows.Forms.Button();
             label4 = new System.Windows.Forms.Label();
             txtQuantity = new System.Windows.Forms.TextBox();
+            button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)dgvListProduct).BeginInit();
             SuspendLayout();
             // 
@@ -162,11 +163,11 @@
             // btnBuy
             // 
             btnBuy.BackColor = System.Drawing.Color.Red;
-            btnBuy.ForeColor = System.Drawing.SystemColors.ControlText;
+            btnBuy.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             btnBuy.Location = new System.Drawing.Point(771, 188);
             btnBuy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnBuy.Name = "btnBuy";
-            btnBuy.Size = new System.Drawing.Size(123, 55);
+            btnBuy.Size = new System.Drawing.Size(123, 29);
             btnBuy.TabIndex = 3;
             btnBuy.Text = "Buy";
             btnBuy.UseVisualStyleBackColor = false;
@@ -188,13 +189,23 @@
             txtQuantity.Size = new System.Drawing.Size(125, 27);
             txtQuantity.TabIndex = 35;
             txtQuantity.Text = "0";
-            
+            // 
+            // button2
+            // 
+            button2.Location = new System.Drawing.Point(916, 188);
+            button2.Name = "button2";
+            button2.Size = new System.Drawing.Size(94, 29);
+            button2.TabIndex = 36;
+            button2.Text = "Logout";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += logout;
             // 
             // frmCreateOrder
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(1112, 724);
+            Controls.Add(button2);
             Controls.Add(txtQuantity);
             Controls.Add(label4);
             Controls.Add(btnBuy);
@@ -257,5 +268,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtQuantity;
         private System.Windows.Forms.Button btnBuy;
+        private System.Windows.Forms.Button button2;
     }
 }

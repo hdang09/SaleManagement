@@ -20,7 +20,7 @@ namespace SaleManagementWinApp
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmCreateOrder frmOrders = new frmCreateOrder();
+            frmOrders frmOrders = new frmOrders();
             frmOrders.ShowDialog();
 
         }
@@ -31,6 +31,11 @@ namespace SaleManagementWinApp
             frmMember.ShowDialog();
         }
 
-        private void btnExit_Click(object sender, EventArgs e) { Application.Exit(); }
+        private void btnExit_Click(object sender, EventArgs e) 
+        {
+            frmLogin frmLogin = new frmLogin();
+            this.Hide();
+            frmLogin.Show();
+        }
     }
 }

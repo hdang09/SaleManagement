@@ -42,13 +42,15 @@
             btnDeleteMember = new System.Windows.Forms.Button();
             btnUpdate = new System.Windows.Forms.Button();
             dgvMemberList = new System.Windows.Forms.DataGridView();
+            label6 = new System.Windows.Forms.Label();
+            tbSearch = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)dgvMemberList).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new System.Drawing.Point(26, 40);
+            label1.Location = new System.Drawing.Point(46, 131);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(22, 20);
             label1.TabIndex = 0;
@@ -57,7 +59,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(26, 93);
+            label2.Location = new System.Drawing.Point(46, 184);
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(46, 20);
             label2.TabIndex = 1;
@@ -66,7 +68,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new System.Drawing.Point(26, 144);
+            label3.Location = new System.Drawing.Point(46, 235);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(116, 20);
             label3.TabIndex = 2;
@@ -75,7 +77,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new System.Drawing.Point(26, 192);
+            label4.Location = new System.Drawing.Point(46, 283);
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(34, 20);
             label4.TabIndex = 3;
@@ -84,7 +86,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new System.Drawing.Point(26, 245);
+            label5.Location = new System.Drawing.Point(46, 336);
             label5.Name = "label5";
             label5.Size = new System.Drawing.Size(60, 20);
             label5.TabIndex = 4;
@@ -92,7 +94,7 @@
             // 
             // txtRole
             // 
-            txtRole.Location = new System.Drawing.Point(158, 140);
+            txtRole.Location = new System.Drawing.Point(178, 231);
             txtRole.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtRole.Name = "txtRole";
             txtRole.Size = new System.Drawing.Size(237, 27);
@@ -100,7 +102,7 @@
             // 
             // txtId
             // 
-            txtId.Location = new System.Drawing.Point(158, 36);
+            txtId.Location = new System.Drawing.Point(178, 127);
             txtId.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtId.Name = "txtId";
             txtId.Size = new System.Drawing.Size(237, 27);
@@ -108,7 +110,7 @@
             // 
             // txtEmail
             // 
-            txtEmail.Location = new System.Drawing.Point(158, 89);
+            txtEmail.Location = new System.Drawing.Point(178, 180);
             txtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new System.Drawing.Size(237, 27);
@@ -116,7 +118,7 @@
             // 
             // txtCity
             // 
-            txtCity.Location = new System.Drawing.Point(158, 188);
+            txtCity.Location = new System.Drawing.Point(178, 279);
             txtCity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtCity.Name = "txtCity";
             txtCity.Size = new System.Drawing.Size(237, 27);
@@ -124,7 +126,7 @@
             // 
             // txtCountry
             // 
-            txtCountry.Location = new System.Drawing.Point(158, 241);
+            txtCountry.Location = new System.Drawing.Point(178, 332);
             txtCountry.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtCountry.Name = "txtCountry";
             txtCountry.Size = new System.Drawing.Size(237, 27);
@@ -132,7 +134,7 @@
             // 
             // btnSearchMember
             // 
-            btnSearchMember.Location = new System.Drawing.Point(445, 36);
+            btnSearchMember.Location = new System.Drawing.Point(775, 42);
             btnSearchMember.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnSearchMember.Name = "btnSearchMember";
             btnSearchMember.Size = new System.Drawing.Size(155, 31);
@@ -143,7 +145,7 @@
             // 
             // btnDeleteMember
             // 
-            btnDeleteMember.Location = new System.Drawing.Point(182, 317);
+            btnDeleteMember.Location = new System.Drawing.Point(202, 408);
             btnDeleteMember.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnDeleteMember.Name = "btnDeleteMember";
             btnDeleteMember.Size = new System.Drawing.Size(86, 31);
@@ -154,7 +156,7 @@
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new System.Drawing.Point(310, 317);
+            btnUpdate.Location = new System.Drawing.Point(330, 408);
             btnUpdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new System.Drawing.Size(86, 31);
@@ -166,19 +168,39 @@
             // dgvMemberList
             // 
             dgvMemberList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvMemberList.Location = new System.Drawing.Point(445, 75);
+            dgvMemberList.Location = new System.Drawing.Point(446, 115);
             dgvMemberList.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             dgvMemberList.Name = "dgvMemberList";
             dgvMemberList.RowHeadersWidth = 51;
             dgvMemberList.RowTemplate.Height = 25;
-            dgvMemberList.Size = new System.Drawing.Size(432, 273);
+            dgvMemberList.Size = new System.Drawing.Size(484, 324);
             dgvMemberList.TabIndex = 14;
+            dgvMemberList.CellClick += clickCellShowInfo;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new System.Drawing.Font("Cooper Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label6.Location = new System.Drawing.Point(46, 38);
+            label6.Name = "label6";
+            label6.Size = new System.Drawing.Size(356, 35);
+            label6.TabIndex = 15;
+            label6.Text = "Member Management";
+            // 
+            // tbSearch
+            // 
+            tbSearch.Location = new System.Drawing.Point(446, 44);
+            tbSearch.Name = "tbSearch";
+            tbSearch.Size = new System.Drawing.Size(297, 27);
+            tbSearch.TabIndex = 16;
             // 
             // frmMember
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(890, 385);
+            ClientSize = new System.Drawing.Size(966, 511);
+            Controls.Add(tbSearch);
+            Controls.Add(label6);
             Controls.Add(dgvMemberList);
             Controls.Add(btnUpdate);
             Controls.Add(btnDeleteMember);
@@ -218,5 +240,7 @@
         private System.Windows.Forms.Button btnDeleteMember;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.DataGridView dgvMemberList;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox tbSearch;
     }
 }

@@ -58,17 +58,17 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label2.Location = new System.Drawing.Point(210, 82);
+            label2.Font = new System.Drawing.Font("Stencil", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label2.Location = new System.Drawing.Point(180, 81);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(185, 32);
+            label2.Size = new System.Drawing.Size(253, 32);
             label2.TabIndex = 1;
             label2.Text = "Create account";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new System.Drawing.Point(140, 149);
+            label3.Location = new System.Drawing.Point(140, 161);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(46, 20);
             label3.TabIndex = 2;
@@ -77,7 +77,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new System.Drawing.Point(140, 303);
+            label4.Location = new System.Drawing.Point(140, 315);
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(70, 20);
             label4.TabIndex = 3;
@@ -86,7 +86,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new System.Drawing.Point(140, 356);
+            label5.Location = new System.Drawing.Point(140, 368);
             label5.Name = "label5";
             label5.Size = new System.Drawing.Size(95, 20);
             label5.TabIndex = 4;
@@ -95,7 +95,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new System.Drawing.Point(140, 200);
+            label6.Location = new System.Drawing.Point(140, 212);
             label6.Name = "label6";
             label6.Size = new System.Drawing.Size(34, 20);
             label6.TabIndex = 5;
@@ -104,7 +104,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new System.Drawing.Point(140, 251);
+            label7.Location = new System.Drawing.Point(140, 263);
             label7.Name = "label7";
             label7.Size = new System.Drawing.Size(60, 20);
             label7.TabIndex = 6;
@@ -112,42 +112,44 @@
             // 
             // tbEmail
             // 
-            tbEmail.Location = new System.Drawing.Point(263, 146);
+            tbEmail.Location = new System.Drawing.Point(263, 158);
             tbEmail.Name = "tbEmail";
             tbEmail.Size = new System.Drawing.Size(204, 27);
             tbEmail.TabIndex = 7;
             // 
             // tbCity
             // 
-            tbCity.Location = new System.Drawing.Point(263, 197);
+            tbCity.Location = new System.Drawing.Point(263, 209);
             tbCity.Name = "tbCity";
             tbCity.Size = new System.Drawing.Size(204, 27);
             tbCity.TabIndex = 8;
             // 
             // tbCountry
             // 
-            tbCountry.Location = new System.Drawing.Point(263, 244);
+            tbCountry.Location = new System.Drawing.Point(263, 256);
             tbCountry.Name = "tbCountry";
             tbCountry.Size = new System.Drawing.Size(204, 27);
             tbCountry.TabIndex = 9;
             // 
             // tbPassword
             // 
-            tbPassword.Location = new System.Drawing.Point(263, 300);
+            tbPassword.Location = new System.Drawing.Point(263, 312);
             tbPassword.Name = "tbPassword";
             tbPassword.Size = new System.Drawing.Size(204, 27);
             tbPassword.TabIndex = 10;
+            tbPassword.UseSystemPasswordChar = true;
             // 
             // tbRePassword
             // 
-            tbRePassword.Location = new System.Drawing.Point(263, 356);
+            tbRePassword.Location = new System.Drawing.Point(263, 368);
             tbRePassword.Name = "tbRePassword";
             tbRePassword.Size = new System.Drawing.Size(204, 27);
             tbRePassword.TabIndex = 11;
+            tbRePassword.UseSystemPasswordChar = true;
             // 
             // btnRegister
             // 
-            btnRegister.Location = new System.Drawing.Point(263, 431);
+            btnRegister.Location = new System.Drawing.Point(263, 443);
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new System.Drawing.Size(94, 29);
             btnRegister.TabIndex = 12;
@@ -158,7 +160,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new System.Drawing.Point(189, 506);
+            label8.Location = new System.Drawing.Point(189, 518);
             label8.Name = "label8";
             label8.Size = new System.Drawing.Size(178, 20);
             label8.TabIndex = 13;
@@ -167,7 +169,7 @@
             // linkLogin
             // 
             linkLogin.AutoSize = true;
-            linkLogin.Location = new System.Drawing.Point(373, 506);
+            linkLogin.Location = new System.Drawing.Point(373, 518);
             linkLogin.Name = "linkLogin";
             linkLogin.Size = new System.Drawing.Size(46, 20);
             linkLogin.TabIndex = 14;

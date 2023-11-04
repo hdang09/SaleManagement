@@ -42,7 +42,7 @@ namespace SaleManagementWinApp
             //var productId = dgvProductList.Rows[e.RowIndex].Cells[0].Value;
             btnUpdate.Enabled = false;
             btnDelete.Enabled = false;
-            if (e.RowIndex > 0)
+            if (e.RowIndex >= 0)
             {
                 txtProductID.Enabled = false;
                 var rowSelected = this.dgvProductList.Rows[e.RowIndex];

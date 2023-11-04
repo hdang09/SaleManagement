@@ -43,7 +43,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new System.Drawing.Point(122, 182);
+            label1.Location = new System.Drawing.Point(122, 197);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(46, 20);
             label1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(122, 241);
+            label2.Location = new System.Drawing.Point(122, 256);
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(70, 20);
             label2.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             // btnLogin
             // 
-            btnLogin.Location = new System.Drawing.Point(208, 322);
+            btnLogin.Location = new System.Drawing.Point(208, 337);
             btnLogin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new System.Drawing.Size(90, 28);
@@ -71,7 +71,7 @@
             // 
             // btnCancel
             // 
-            btnCancel.Location = new System.Drawing.Point(328, 322);
+            btnCancel.Location = new System.Drawing.Point(328, 337);
             btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnCancel.Name = "btnCancel";
             btnCancel.Size = new System.Drawing.Size(90, 28);
@@ -82,7 +82,7 @@
             // 
             // txtEmail
             // 
-            txtEmail.Location = new System.Drawing.Point(208, 178);
+            txtEmail.Location = new System.Drawing.Point(208, 193);
             txtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new System.Drawing.Size(291, 27);
@@ -90,11 +90,12 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new System.Drawing.Point(208, 237);
+            txtPassword.Location = new System.Drawing.Point(208, 252);
             txtPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new System.Drawing.Size(291, 27);
             txtPassword.TabIndex = 5;
+            txtPassword.UseSystemPasswordChar = true;
             // 
             // label3
             // 
@@ -109,17 +110,17 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label4.Location = new System.Drawing.Point(194, 100);
+            label4.Font = new System.Drawing.Font("Stencil", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label4.Location = new System.Drawing.Point(161, 105);
             label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(224, 32);
+            label4.Size = new System.Drawing.Size(293, 32);
             label4.TabIndex = 7;
             label4.Text = "Log in to continue";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new System.Drawing.Point(175, 409);
+            label5.Location = new System.Drawing.Point(194, 424);
             label5.Name = "label5";
             label5.Size = new System.Drawing.Size(167, 20);
             label5.TabIndex = 8;
@@ -128,7 +129,7 @@
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new System.Drawing.Point(342, 409);
+            linkLabel1.Location = new System.Drawing.Point(367, 424);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new System.Drawing.Size(63, 20);
             linkLabel1.TabIndex = 9;
@@ -140,7 +141,7 @@
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(606, 473);
+            ClientSize = new System.Drawing.Size(606, 501);
             Controls.Add(linkLabel1);
             Controls.Add(label5);
             Controls.Add(label4);
