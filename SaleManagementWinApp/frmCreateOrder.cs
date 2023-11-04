@@ -20,6 +20,7 @@ namespace SaleManagementWinApp
             InitializeComponent();// lấy data dưới database lên
             var list = productDAO.GetAll().Select(p => new { p.ProductId, p.ProductName, p.UnitPrice, p.UnitsInStock }).ToList();
             dgvListProduct.DataSource = list;
+
             txtProductID.Enabled = false;
             txtProductName.Enabled = false;
             txtUnitPrice.Enabled = false;
@@ -59,8 +60,6 @@ namespace SaleManagementWinApp
                 txtProductName.Text = ProductName;
                 txtUnitPrice.Text = UnitPrice;
                 txtUnitInStock.Text = UnitsInStock;
-
-
             }
         }
 
@@ -71,7 +70,7 @@ namespace SaleManagementWinApp
 
             if (int.TryParse(quantityTxt, out quantity))
             {
-                if (quantity <= 0) MessageBox.Show("Quantity cannot <=0", "Warning", MessageBoxButtons.OK);
+                if (quantity <= 0) MessageBox.Show("Quantity cannot <= 0", "Warning", MessageBoxButtons.OK);
                 else if (txtProductID.Text.ToString() != "")
                 {
 

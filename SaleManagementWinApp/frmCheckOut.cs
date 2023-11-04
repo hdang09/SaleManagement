@@ -18,6 +18,7 @@ namespace SaleManagementWinApp
             InitializeComponent();
             var list = orderDetailDAO.GetAll().Where(p => p.Discount != 1)
                 .Select(p => new { p.OrderId, p.ProductId, p.UnitPrice, p.Quantity, p.Discount }).ToList();
+            
             dgvListCart.DataSource = list;
 
         }
@@ -26,6 +27,7 @@ namespace SaleManagementWinApp
         {
             var list = orderDetailDAO.GetAll().Where(p => p.Discount != 1)
                 .Select(p => new { p.OrderId, p.ProductId, p.UnitPrice, p.Quantity, p.Discount }).ToList();
+            
             dgvListCart.DataSource = list;
 
         }
@@ -109,19 +111,15 @@ namespace SaleManagementWinApp
                 Product product = productDAO.GetAll().FirstOrDefault(p => p.ProductId == int.Parse(cellValues[1]));
                 if (product != null)
                 {
-                    product.UnitsInStock -=  int.Parse(cellValues[3]);
+                    product.UnitsInStock -= int.Parse(cellValues[3]);
                     productDAO.Update(product);
                 }
 
                 _orderDetailRepository.Update(order);
                 cellValues.Clear();
 
-                
+
             };
-
-            
-            
-
 
             MessageBox.Show("Pay a product done", "Notification", MessageBoxButtons.OK);
             dgvListCart.Update();
@@ -130,7 +128,6 @@ namespace SaleManagementWinApp
             var list = orDeDAO.GetAll().Where(p => p.Discount != 1)
                 .Select(p => new { p.OrderId, p.ProductId, p.UnitPrice, p.Quantity, p.Discount }).ToList();
             dgvListCart.DataSource = list;
-
         }
     }
 }

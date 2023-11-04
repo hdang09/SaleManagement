@@ -44,22 +44,23 @@
             label4 = new System.Windows.Forms.Label();
             txtQuantity = new System.Windows.Forms.TextBox();
             button2 = new System.Windows.Forms.Button();
+            label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)dgvListProduct).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label1.Location = new System.Drawing.Point(16, 23);
+            label1.Font = new System.Drawing.Font("Cooper Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label1.Location = new System.Drawing.Point(275, 81);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(88, 32);
+            label1.Size = new System.Drawing.Size(461, 39);
             label1.TabIndex = 0;
-            label1.Text = "Home";
+            label1.Text = "Welcome back to FUStore";
             // 
             // txtUnitInStock
             // 
-            txtUnitInStock.Location = new System.Drawing.Point(686, 60);
+            txtUnitInStock.Location = new System.Drawing.Point(597, 201);
             txtUnitInStock.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtUnitInStock.Name = "txtUnitInStock";
             txtUnitInStock.Size = new System.Drawing.Size(123, 27);
@@ -67,7 +68,7 @@
             // 
             // txtUnitPrice
             // 
-            txtUnitPrice.Location = new System.Drawing.Point(520, 60);
+            txtUnitPrice.Location = new System.Drawing.Point(431, 201);
             txtUnitPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtUnitPrice.Name = "txtUnitPrice";
             txtUnitPrice.Size = new System.Drawing.Size(117, 27);
@@ -75,7 +76,7 @@
             // 
             // txtProductName
             // 
-            txtProductName.Location = new System.Drawing.Point(353, 60);
+            txtProductName.Location = new System.Drawing.Point(264, 201);
             txtProductName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtProductName.Name = "txtProductName";
             txtProductName.Size = new System.Drawing.Size(129, 27);
@@ -83,7 +84,7 @@
             // 
             // txtProductID
             // 
-            txtProductID.Location = new System.Drawing.Point(187, 60);
+            txtProductID.Location = new System.Drawing.Point(98, 201);
             txtProductID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtProductID.Name = "txtProductID";
             txtProductID.Size = new System.Drawing.Size(133, 27);
@@ -92,7 +93,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new System.Drawing.Point(692, 36);
+            label7.Location = new System.Drawing.Point(616, 177);
             label7.Name = "label7";
             label7.Size = new System.Drawing.Size(90, 20);
             label7.TabIndex = 22;
@@ -101,7 +102,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new System.Drawing.Point(541, 31);
+            label3.Location = new System.Drawing.Point(453, 177);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(72, 20);
             label3.TabIndex = 19;
@@ -110,7 +111,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(378, 36);
+            label2.Location = new System.Drawing.Point(275, 177);
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(104, 20);
             label2.TabIndex = 18;
@@ -119,7 +120,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new System.Drawing.Point(207, 36);
+            label5.Location = new System.Drawing.Point(118, 177);
             label5.Name = "label5";
             label5.Size = new System.Drawing.Size(79, 20);
             label5.TabIndex = 17;
@@ -127,7 +128,7 @@
             // 
             // btnSearchProduct
             // 
-            btnSearchProduct.Location = new System.Drawing.Point(771, 133);
+            btnSearchProduct.Location = new System.Drawing.Point(758, 288);
             btnSearchProduct.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnSearchProduct.Name = "btnSearchProduct";
             btnSearchProduct.Size = new System.Drawing.Size(123, 32);
@@ -138,11 +139,11 @@
             // 
             // btnCart
             // 
-            btnCart.BackColor = System.Drawing.Color.Cyan;
-            btnCart.Location = new System.Drawing.Point(914, 133);
+            btnCart.BackColor = System.Drawing.Color.Orange;
+            btnCart.Location = new System.Drawing.Point(758, 419);
             btnCart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnCart.Name = "btnCart";
-            btnCart.Size = new System.Drawing.Size(96, 32);
+            btnCart.Size = new System.Drawing.Size(123, 32);
             btnCart.TabIndex = 32;
             btnCart.Text = "Cart";
             btnCart.UseVisualStyleBackColor = false;
@@ -151,23 +152,23 @@
             // dgvListProduct
             // 
             dgvListProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvListProduct.Location = new System.Drawing.Point(125, 133);
+            dgvListProduct.Location = new System.Drawing.Point(98, 288);
             dgvListProduct.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             dgvListProduct.Name = "dgvListProduct";
             dgvListProduct.RowHeadersWidth = 51;
             dgvListProduct.RowTemplate.Height = 25;
-            dgvListProduct.Size = new System.Drawing.Size(629, 412);
+            dgvListProduct.Size = new System.Drawing.Size(629, 357);
             dgvListProduct.TabIndex = 33;
             dgvListProduct.CellClick += dgvListProduct_CellClick;
             // 
             // btnBuy
             // 
-            btnBuy.BackColor = System.Drawing.Color.Red;
-            btnBuy.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            btnBuy.Location = new System.Drawing.Point(771, 188);
+            btnBuy.BackColor = System.Drawing.Color.Turquoise;
+            btnBuy.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            btnBuy.Location = new System.Drawing.Point(760, 353);
             btnBuy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnBuy.Name = "btnBuy";
-            btnBuy.Size = new System.Drawing.Size(123, 29);
+            btnBuy.Size = new System.Drawing.Size(123, 35);
             btnBuy.TabIndex = 3;
             btnBuy.Text = "Buy";
             btnBuy.UseVisualStyleBackColor = false;
@@ -176,7 +177,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new System.Drawing.Point(869, 36);
+            label4.Location = new System.Drawing.Point(780, 177);
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(65, 20);
             label4.TabIndex = 34;
@@ -184,7 +185,7 @@
             // 
             // txtQuantity
             // 
-            txtQuantity.Location = new System.Drawing.Point(847, 59);
+            txtQuantity.Location = new System.Drawing.Point(758, 200);
             txtQuantity.Name = "txtQuantity";
             txtQuantity.Size = new System.Drawing.Size(125, 27);
             txtQuantity.TabIndex = 35;
@@ -192,19 +193,32 @@
             // 
             // button2
             // 
-            button2.Location = new System.Drawing.Point(916, 188);
+            button2.BackColor = System.Drawing.Color.FromArgb(255, 128, 128);
+            button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            button2.Location = new System.Drawing.Point(758, 486);
             button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(94, 29);
+            button2.Size = new System.Drawing.Size(123, 36);
             button2.TabIndex = 36;
             button2.Text = "Logout";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += logout;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label6.Location = new System.Drawing.Point(453, 34);
+            label6.Name = "label6";
+            label6.Size = new System.Drawing.Size(98, 23);
+            label6.TabIndex = 37;
+            label6.Text = "Home Page";
             // 
             // frmCreateOrder
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(1112, 724);
+            ClientSize = new System.Drawing.Size(1008, 711);
+            Controls.Add(label6);
             Controls.Add(button2);
             Controls.Add(txtQuantity);
             Controls.Add(label4);
@@ -224,7 +238,7 @@
             Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             Name = "frmCreateOrder";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            Text = "frmCreateOrder";
+            Text = "Home";
             ((System.ComponentModel.ISupportInitialize)dgvListProduct).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -269,5 +283,6 @@
         private System.Windows.Forms.TextBox txtQuantity;
         private System.Windows.Forms.Button btnBuy;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label6;
     }
 }
