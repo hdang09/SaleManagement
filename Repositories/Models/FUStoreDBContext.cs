@@ -124,7 +124,7 @@ namespace Repositories.Models
             {
                 entity.ToTable("Product");
 
-                entity.Property(e => e.ProductId).ValueGeneratedOnAdd();
+                entity.Property(e => e.ProductId).ValueGeneratedNever();
 
                 entity.Property(e => e.ProductName)
                     .IsRequired()

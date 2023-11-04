@@ -42,47 +42,47 @@
             btnUpdate = new System.Windows.Forms.Button();
             btnDelete = new System.Windows.Forms.Button();
             txtUnitPrice = new System.Windows.Forms.TextBox();
-            txtCategoryID = new System.Windows.Forms.TextBox();
             txtWeight = new System.Windows.Forms.TextBox();
             txtUnitInStock = new System.Windows.Forms.TextBox();
             txtSearchProduct = new System.Windows.Forms.TextBox();
             btnSearch = new System.Windows.Forms.Button();
+            cbCategory = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)dgvProductList).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new System.Drawing.Point(51, 117);
+            label1.Location = new System.Drawing.Point(58, 156);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(63, 15);
+            label1.Size = new System.Drawing.Size(79, 20);
             label1.TabIndex = 0;
             label1.Text = "Product ID";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(51, 170);
+            label2.Location = new System.Drawing.Point(58, 227);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(84, 15);
+            label2.Size = new System.Drawing.Size(104, 20);
             label2.TabIndex = 1;
             label2.Text = "Product Name";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new System.Drawing.Point(51, 221);
+            label3.Location = new System.Drawing.Point(58, 295);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(58, 15);
+            label3.Size = new System.Drawing.Size(72, 20);
             label3.TabIndex = 2;
             label3.Text = "Unit Price";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new System.Drawing.Point(51, 274);
+            label4.Location = new System.Drawing.Point(58, 365);
             label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(69, 15);
+            label4.Size = new System.Drawing.Size(88, 20);
             label4.TabIndex = 3;
             label4.Text = "Category ID";
             // 
@@ -90,59 +90,64 @@
             // 
             label5.AutoSize = true;
             label5.Font = new System.Drawing.Font("Cooper Black", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label5.Location = new System.Drawing.Point(63, 46);
+            label5.Location = new System.Drawing.Point(72, 61);
             label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(305, 31);
+            label5.Size = new System.Drawing.Size(385, 39);
             label5.TabIndex = 4;
             label5.Text = "Product Management";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new System.Drawing.Point(51, 324);
+            label6.Location = new System.Drawing.Point(58, 432);
             label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(45, 15);
+            label6.Size = new System.Drawing.Size(56, 20);
             label6.TabIndex = 5;
             label6.Text = "Weight";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new System.Drawing.Point(51, 374);
+            label7.Location = new System.Drawing.Point(58, 499);
             label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(73, 15);
+            label7.Size = new System.Drawing.Size(90, 20);
             label7.TabIndex = 6;
             label7.Text = "Unit in stock";
             // 
             // dgvProductList
             // 
             dgvProductList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvProductList.Location = new System.Drawing.Point(386, 114);
+            dgvProductList.Location = new System.Drawing.Point(441, 152);
+            dgvProductList.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             dgvProductList.Name = "dgvProductList";
+            dgvProductList.RowHeadersWidth = 51;
             dgvProductList.RowTemplate.Height = 25;
-            dgvProductList.Size = new System.Drawing.Size(534, 327);
+            dgvProductList.Size = new System.Drawing.Size(610, 436);
             dgvProductList.TabIndex = 7;
             dgvProductList.CellContentClick += dgvProductList_CellContentClick;
             // 
             // txtProductID
             // 
-            txtProductID.Location = new System.Drawing.Point(159, 114);
+            txtProductID.Location = new System.Drawing.Point(182, 152);
+            txtProductID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtProductID.Name = "txtProductID";
-            txtProductID.Size = new System.Drawing.Size(209, 23);
+            txtProductID.Size = new System.Drawing.Size(238, 27);
             txtProductID.TabIndex = 8;
             // 
             // txtProductName
             // 
-            txtProductName.Location = new System.Drawing.Point(159, 167);
+            txtProductName.Location = new System.Drawing.Point(182, 223);
+            txtProductName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtProductName.Name = "txtProductName";
-            txtProductName.Size = new System.Drawing.Size(209, 23);
+            txtProductName.Size = new System.Drawing.Size(238, 27);
             txtProductName.TabIndex = 9;
             // 
             // btnCreate
             // 
-            btnCreate.Location = new System.Drawing.Point(88, 411);
+            btnCreate.Location = new System.Drawing.Point(101, 548);
+            btnCreate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnCreate.Name = "btnCreate";
-            btnCreate.Size = new System.Drawing.Size(75, 23);
+            btnCreate.Size = new System.Drawing.Size(86, 31);
             btnCreate.TabIndex = 10;
             btnCreate.Text = "Create";
             btnCreate.UseVisualStyleBackColor = true;
@@ -150,9 +155,10 @@
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new System.Drawing.Point(194, 411);
+            btnUpdate.Location = new System.Drawing.Point(222, 548);
+            btnUpdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new System.Drawing.Size(75, 23);
+            btnUpdate.Size = new System.Drawing.Size(86, 31);
             btnUpdate.TabIndex = 11;
             btnUpdate.Text = "Update";
             btnUpdate.UseVisualStyleBackColor = true;
@@ -160,9 +166,10 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new System.Drawing.Point(293, 411);
+            btnDelete.Location = new System.Drawing.Point(335, 548);
+            btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new System.Drawing.Size(75, 23);
+            btnDelete.Size = new System.Drawing.Size(86, 31);
             btnDelete.TabIndex = 12;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
@@ -170,59 +177,65 @@
             // 
             // txtUnitPrice
             // 
-            txtUnitPrice.Location = new System.Drawing.Point(159, 218);
+            txtUnitPrice.Location = new System.Drawing.Point(182, 291);
+            txtUnitPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtUnitPrice.Name = "txtUnitPrice";
-            txtUnitPrice.Size = new System.Drawing.Size(209, 23);
+            txtUnitPrice.Size = new System.Drawing.Size(238, 27);
             txtUnitPrice.TabIndex = 13;
-            // 
-            // txtCategoryID
-            // 
-            txtCategoryID.Location = new System.Drawing.Point(159, 271);
-            txtCategoryID.Name = "txtCategoryID";
-            txtCategoryID.Size = new System.Drawing.Size(209, 23);
-            txtCategoryID.TabIndex = 14;
             // 
             // txtWeight
             // 
-            txtWeight.Location = new System.Drawing.Point(159, 321);
+            txtWeight.Location = new System.Drawing.Point(182, 428);
+            txtWeight.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtWeight.Name = "txtWeight";
-            txtWeight.Size = new System.Drawing.Size(209, 23);
+            txtWeight.Size = new System.Drawing.Size(238, 27);
             txtWeight.TabIndex = 15;
             // 
             // txtUnitInStock
             // 
-            txtUnitInStock.Location = new System.Drawing.Point(159, 371);
+            txtUnitInStock.Location = new System.Drawing.Point(182, 495);
+            txtUnitInStock.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtUnitInStock.Name = "txtUnitInStock";
-            txtUnitInStock.Size = new System.Drawing.Size(209, 23);
+            txtUnitInStock.Size = new System.Drawing.Size(238, 27);
             txtUnitInStock.TabIndex = 16;
             // 
             // txtSearchProduct
             // 
-            txtSearchProduct.Location = new System.Drawing.Point(482, 57);
+            txtSearchProduct.Location = new System.Drawing.Point(551, 76);
+            txtSearchProduct.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             txtSearchProduct.Name = "txtSearchProduct";
-            txtSearchProduct.Size = new System.Drawing.Size(357, 23);
+            txtSearchProduct.Size = new System.Drawing.Size(407, 27);
             txtSearchProduct.TabIndex = 17;
             // 
             // btnSearch
             // 
-            btnSearch.Location = new System.Drawing.Point(845, 56);
+            btnSearch.Location = new System.Drawing.Point(966, 75);
+            btnSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             btnSearch.Name = "btnSearch";
-            btnSearch.Size = new System.Drawing.Size(75, 23);
+            btnSearch.Size = new System.Drawing.Size(86, 31);
             btnSearch.TabIndex = 18;
             btnSearch.Text = "Search";
             btnSearch.UseVisualStyleBackColor = true;
             btnSearch.Click += btnSearch_Click;
             // 
+            // cbCategory
+            // 
+            cbCategory.FormattingEnabled = true;
+            cbCategory.Location = new System.Drawing.Point(182, 362);
+            cbCategory.Name = "cbCategory";
+            cbCategory.Size = new System.Drawing.Size(239, 28);
+            cbCategory.TabIndex = 19;
+            // 
             // frmProducts
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(932, 453);
+            ClientSize = new System.Drawing.Size(1065, 604);
+            Controls.Add(cbCategory);
             Controls.Add(btnSearch);
             Controls.Add(txtSearchProduct);
             Controls.Add(txtUnitInStock);
             Controls.Add(txtWeight);
-            Controls.Add(txtCategoryID);
             Controls.Add(txtUnitPrice);
             Controls.Add(btnDelete);
             Controls.Add(btnUpdate);
@@ -237,6 +250,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             Name = "frmProducts";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "frmProducts";
@@ -261,10 +275,10 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.TextBox txtUnitPrice;
-        private System.Windows.Forms.TextBox txtCategoryID;
         private System.Windows.Forms.TextBox txtWeight;
         private System.Windows.Forms.TextBox txtUnitInStock;
         private System.Windows.Forms.TextBox txtSearchProduct;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.ComboBox cbCategory;
     }
 }

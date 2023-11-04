@@ -31,11 +31,17 @@ namespace SaleManagementWinApp
             frmMember.ShowDialog();
         }
 
-        private void btnExit_Click(object sender, EventArgs e) 
+        private void btnExit_Click(object sender, EventArgs e)
         {
             frmLogin frmLogin = new frmLogin();
             this.Hide();
             frmLogin.Show();
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCategory frmCategory = new frmCategory();
+            frmCategory.ShowDialog();
         }
     }
 }

@@ -26,8 +26,8 @@ namespace SaleManagementWinApp
 
         private void btnSearchMember_Click(object sender, EventArgs e)
         {
-            string keyword = tbSearch.Text.Trim();
-            var list = memberDAO.GetAll().Where(p => p.Email.Contains(keyword))
+            string keyword = tbSearch.Text.Trim().ToLower();
+            var list = memberDAO.GetAll().Where(p => p.Email.ToLower().Contains(keyword))
                     .Select(p => new { p.MemberId, p.Email, p.Role, p.City, p.Country }).ToList();
             dgvMemberList.DataSource = list;
         }
@@ -70,21 +70,23 @@ namespace SaleManagementWinApp
                 }
             }
 
-            var list = memberDAO.GetAll().Select(p => new { p.MemberId, p.Email, p.Role, p.City }).ToList();
+            var list = memberDAO.GetAll().Select(p => new { p.MemberId, p.Email, p.Role, p.City, p.Country }).ToList();
             dgvMemberList.DataSource = list;
         }
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+            int memberId = int.Parse(txtId.Text);
             memberDAO = new MemberDAO();
             var member = new Member();
-            member.MemberId = int.Parse(txtId.Text);
+            member.MemberId = memberId;
             member.Email = txtEmail.Text;
             member.Role = txtRole.Text;
             member.City = txtCity.Text;
             member.Country = txtCountry.Text;
+            member.Password = "1";
             memberDAO.Update(member);
 
-            var list = memberDAO.GetAll().Select(p => new { p.MemberId, p.Email, p.Role, p.City }).ToList();
+            var list = memberDAO.GetAll().Select(p => new { p.MemberId, p.Email, p.Role, p.City, p.Country }).ToList();
             dgvMemberList.DataSource = list;
         }
 
@@ -94,7 +96,7 @@ namespace SaleManagementWinApp
             {
                 txtId.Enabled = false;
                 var rowSelected = this.dgvMemberList.Rows[e.RowIndex];
-                txtId.Text = rowSelected.Cells["MembeId"].Value.ToString();
+                txtId.Text = rowSelected.Cells["MemberId"].Value.ToString();
                 txtEmail.Text = rowSelected.Cells["Email"].Value.ToString();
                 txtRole.Text = rowSelected.Cells["Role"].Value.ToString();
                 txtCity.Text = rowSelected.Cells["City"].Value.ToString();

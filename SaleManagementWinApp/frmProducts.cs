@@ -8,9 +8,15 @@ namespace SaleManagementWinApp
     public partial class frmProducts : Form
     {
         ProductDAO productsDAO = new ProductDAO();
+        CategoryDAO categoryDAO = new CategoryDAO();
+
         public frmProducts()
         {
             InitializeComponent();
+
+            var categoryList = categoryDAO.GetAll().ToList();
+            cbCategory.DataSource = categoryList;
+            cbCategory.DisplayMember = "CategoryName";
 
             var list = productsDAO.GetAll().Select(p => new { p.ProductId, p.ProductName, p.UnitPrice, p.CategoryId, p.Weight, p.UnitsInStock }).ToList();
             dgvProductList.DataSource = list;
@@ -25,7 +31,7 @@ namespace SaleManagementWinApp
         private void btnSearch_Click(object sender, System.EventArgs e)
         {
 
-            var list = productsDAO.GetAll().Where(p => p.ProductName.Contains(txtSearchProduct.Text)).ToList();
+            var list = productsDAO.GetAll().Where(p => p.ProductName.ToLower().Contains(txtSearchProduct.Text.ToLower())).ToList();
             if (list != null)
             {
                 dgvProductList.DataSource = list;
@@ -49,7 +55,7 @@ namespace SaleManagementWinApp
                 txtProductID.Text = rowSelected.Cells["ProductId"].Value.ToString();
                 txtProductName.Text = rowSelected.Cells["ProductName"].Value.ToString();
                 txtUnitPrice.Text = rowSelected.Cells["UnitPrice"].Value.ToString();
-                txtCategoryID.Text = rowSelected.Cells["CategoryId"].Value.ToString();
+                cbCategory.SelectedItem = categoryDAO.GetAll().FirstOrDefault(c => c.CategoryId == (int)rowSelected.Cells["CategoryId"].Value);
                 txtWeight.Text = rowSelected.Cells["Weight"].Value.ToString();
                 txtUnitInStock.Text = rowSelected.Cells["UnitsInStock"].Value.ToString();
             }
@@ -73,11 +79,15 @@ namespace SaleManagementWinApp
             Product.ProductId = int.Parse(txtProductID.Text);
             Product.ProductName = txtProductName.Text;
             Product.UnitPrice = decimal.Parse(txtUnitPrice.Text);
-            Product.CategoryId = int.Parse(txtCategoryID.Text);
+            Category selected = (Category)cbCategory.SelectedItem;
+            Product.CategoryId = selected.CategoryId;
             Product.Weight = txtWeight.Text;
             Product.UnitsInStock = int.Parse(txtUnitInStock.Text);
             productsDAO.Create(Product);
             MessageBox.Show("Product Added!");
+
+            var list = productsDAO.GetAll().Select(p => new { p.ProductId, p.ProductName, p.UnitPrice, p.CategoryId, p.Weight, p.UnitsInStock }).ToList();
+            dgvProductList.DataSource = list;
         }
 
         private void btnDelete_Click(object sender, System.EventArgs e)
@@ -98,16 +108,23 @@ namespace SaleManagementWinApp
                     return;
                 }
             }
+
+            var list = productsDAO.GetAll().Select(p => new { p.ProductId, p.ProductName, p.UnitPrice, p.CategoryId, p.Weight, p.UnitsInStock }).ToList();
+            dgvProductList.DataSource = list;
         }
 
         private void btnUpdate_Click(object sender, System.EventArgs e)
         {
             productsDAO = new ProductDAO();
             var product = new Product();
+
             product.ProductId = int.Parse(txtProductID.Text);
             product.ProductName = txtProductName.Text;
             product.UnitPrice = decimal.Parse(txtUnitPrice.Text);
-            product.CategoryId = int.Parse(txtCategoryID.Text);
+
+            Category selected = (Category)cbCategory.SelectedItem;
+            product.CategoryId = selected.CategoryId;
+
             product.Weight = txtWeight.Text;
             product.UnitsInStock = int.Parse(txtUnitInStock.Text);
             productsDAO.Update(product);

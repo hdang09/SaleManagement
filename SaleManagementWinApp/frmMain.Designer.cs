@@ -43,7 +43,7 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new System.Drawing.Size(17, 17);
-            menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { productToolStripMenuItem, orderToolStripMenuItem, accountToolStripMenuItem, logoutToolStripMenuItem });
+            menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { productToolStripMenuItem, orderToolStripMenuItem, logoutToolStripMenuItem, accountToolStripMenuItem });
             menuStrip1.Location = new System.Drawing.Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
@@ -75,8 +75,9 @@
             // logoutToolStripMenuItem
             // 
             logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            logoutToolStripMenuItem.Size = new System.Drawing.Size(35, 24);
-            logoutToolStripMenuItem.Text = "   ";
+            logoutToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
+            logoutToolStripMenuItem.Text = " Category";
+            logoutToolStripMenuItem.Click += logoutToolStripMenuItem_Click;
             // 
             // statusStrip1
             // 
