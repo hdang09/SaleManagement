@@ -132,7 +132,7 @@
             btnSearchProduct.Name = "btnSearchProduct";
             btnSearchProduct.Size = new System.Drawing.Size(123, 32);
             btnSearchProduct.TabIndex = 29;
-            btnSearchProduct.Text = "Search";
+            btnSearchProduct.Text = "Load";
             btnSearchProduct.UseVisualStyleBackColor = true;
             btnSearchProduct.Click += btnSearchProduct_Click;
             // 

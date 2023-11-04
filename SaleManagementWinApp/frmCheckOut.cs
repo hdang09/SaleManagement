@@ -78,9 +78,11 @@ namespace SaleManagementWinApp
 
         private void btnCheckout_Click(object sender, EventArgs e)
         {
+            ProductDAO productDAO = new ProductDAO();
+
             if (dgvListCart.SelectedCells.Count == 0)
             {
-                MessageBox.Show("Please select a row to remove.", "No Row Selected", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Please select a row to checkout.", "No Row Selected", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 
@@ -103,13 +105,31 @@ namespace SaleManagementWinApp
                     Quantity = int.Parse(cellValues[3]),
                     Discount = 1
                 };
+
+                Product product = productDAO.GetAll().FirstOrDefault(p => p.ProductId == int.Parse(cellValues[1]));
+                if (product != null)
+                {
+                    product.UnitsInStock -=  int.Parse(cellValues[3]);
+                    productDAO.Update(product);
+                }
+
                 _orderDetailRepository.Update(order);
                 cellValues.Clear();
+
+                
             };
+
+            
+            
 
 
             MessageBox.Show("Pay a product done", "Notification", MessageBoxButtons.OK);
             dgvListCart.Update();
+
+            OrderDetailDAO orDeDAO = new OrderDetailDAO();
+            var list = orDeDAO.GetAll().Where(p => p.Discount != 1)
+                .Select(p => new { p.OrderId, p.ProductId, p.UnitPrice, p.Quantity, p.Discount }).ToList();
+            dgvListCart.DataSource = list;
 
         }
     }

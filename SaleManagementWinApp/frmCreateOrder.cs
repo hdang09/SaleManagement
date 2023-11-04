@@ -36,9 +36,9 @@ namespace SaleManagementWinApp
 
         private void btnSearchProduct_Click(object sender, EventArgs e)
         {
-
-            frmOrders frmOrder = new frmOrders();
-            frmOrder.ShowDialog();
+            ProductDAO dao = new ProductDAO();
+            var list = dao.GetAll().Select(p => new { p.ProductId, p.ProductName, p.UnitPrice, p.UnitsInStock }).ToList();
+            dgvListProduct.DataSource = list;
         }
 
 
